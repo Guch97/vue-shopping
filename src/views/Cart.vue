@@ -8,8 +8,8 @@
                 <i class="cubeic-add" @click="addCart(index)"></i>
             </div>            
         </div>
-        <cube-button style="margin:10px 0;">下单</cube-button>
-        <cube-button @click="claercart">清空购物车</cube-button@cli>
+        <cube-button @click='order' style="margin:10px 0;">下单</cube-button>
+        <cube-button @click="claercart">清空购物车</cube-button>
     </div>
 </template>
 
@@ -27,6 +27,14 @@ export default {
         })
     },
     methods:{
+      order(){
+        this.$createDialog({
+        type: 'alert',
+        content: '下单成功',
+        icon: 'cubeic-alert'
+      }).show()
+        this.$store.commit("clearcart")
+      },
         //减少商品
      removeCart(index){
          this.$store.commit("cartremove",index)

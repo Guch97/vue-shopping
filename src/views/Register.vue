@@ -1,11 +1,12 @@
 <template>
     <div>
-        <img class="headerimg" src="https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/learn.png" alt="">
+        <img class="headerimg" src="https://m.360buyimg.com/babel/jfs/t1/96574/33/9087/110807/5e0b1656E5f1e5354/328ad41f6cacb7a6.jpg!q70.jpg.webp" alt="">
        <cube-form
             :model="model"
             :schema="schema"
             @submit="submitHandler">
        </cube-form>
+       <cube-popup type="my-popup" ref="myPopup">注册成功</cube-popup>
     </div>
 </template>
 
@@ -70,7 +71,15 @@ export default {
         submitHandler(e){
             e.preventDefault()
             this.$http.get('/api/register',{params:this.model}).then(res=>{
-                console.log(res.success)
+              if(res.success==true){
+                this.$store.state.token='admin',
+              localStorage.setItem('token',JSON.stringify(this.$store.state.token))
+                  this.$refs.myPopup.show()
+                    setTimeout(()=>{
+                         this.$refs.myPopup.hide()
+                         this.$router.push('/botnav/index')
+                  },2000)
+                }
             }).catch(err=>{
                 console.log(err)
             })

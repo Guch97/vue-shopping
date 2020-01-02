@@ -69,8 +69,8 @@ export default {
             width 20%
             justify-content center
             img
-                width 35px
-                height  35px
+                width 55px
+                height  55px
                 border-radius  50%
                 padding 5px 0
             p

@@ -1,14 +1,14 @@
 <template>
     <div>
        
-        <img class="headerimg" src="../assets/20150807231953557.jpg" alt="">
+        <img class="headerimg" src="https://m.360buyimg.com/babel/jfs/t1/101977/31/8428/160688/5e044906E0fd9b65d/d0f6e55b10090478.jpg!q70.jpg.webp" alt="">
        <cube-form
             :model="model"
             :schema="schema"
-            @submit="submitHandler">
-            
+            @submit="submitHandler">       
        </cube-form>
-        <h1>用户名:gch    密码:123456</h1>
+       <cube-popup type="my-popup" ref="myPopup">密码账号错误</cube-popup>
+     
     </div>
 </template>
 
@@ -78,7 +78,6 @@ export default {
                 if(result.code=='0'){
                     this.$store.commit('settoken',result.token)
                     window.localStorage.setItem('token',result.token)
-                   
                     //判断路由是否带参，带参就去到重定向参数地址，否则就去首页
                     if(this.$route.query.redirect){
                          this.$router.replace({path:this.$route.query.redirect})
@@ -86,7 +85,11 @@ export default {
                          this.$router.replace({path:'/botnav/index'})
                     }
                 }else{
-                     alert(result.message)
+                    this.$refs.myPopup.show()
+                    setTimeout(()=>{
+                         this.$refs.myPopup.hide()
+                        this.$router.push('/register')
+                    },2000)
                 }
             }catch(err){
                 console.log(err)

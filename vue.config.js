@@ -52,16 +52,13 @@ module.exports = {
                 app.get('/api/banner', (req, res) => {
                         res.json({
                             data: [{
-                                    url: 'https://www.jd.com',
-                                    image: 'https://img13.360buyimg.com/pop/s1180x940_jfs/t1/76617/34/6072/99691/5d42a34aE64860cf8/5743e542732585ef.jpg'
+                                    image: 'https://img20.360buyimg.com/da/jfs/t1/94969/3/8987/105620/5e0aef5cEceb85d04/d9b5bb216c05e863.jpg'
                                 },
                                 {
-                                    url: 'https://www.jd.com',
-                                    image: 'https://img12.360buyimg.com/da/s1180x940_jfs/t1/72975/31/3932/66034/5d22978aEf5248657/0c6e6cb0b2d4224a.jpg'
+                                    image: 'https://img10.360buyimg.com/da/jfs/t1/89449/29/2731/126534/5dd74e27Ea00f78f0/02f3be72dcecbf55.png'
                                 },
                                 {
-                                    url: 'https://www.jd.com',
-                                    image: 'https://img11.360buyimg.com/pop/s1180x940_jfs/t1/64923/26/6321/78493/5d480b50Ea4f2032e/69fffaf2530cf122.jpg'
+                                    image: 'https://img11.360buyimg.com/da/jfs/t1/39081/22/12393/126937/5d37b4b8E52d6ce7c/dcbe17e4d5047824.jpg'
                                 }
                             ]
                         })
@@ -72,105 +69,105 @@ module.exports = {
                             data: [
                                 [{
                                         url: 'https://www.jd.com',
-                                        image: 'https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/learn.png',
-                                        label: '分类一'
+                                        image: 'https://img20.360buyimg.com/mobilecms/s140x140_jfs/t1/99530/9/8183/163118/5e02c867Ecc5ea797/85df20b9abb554bc.jpg.webp',
+                                        label: '鞋类'
                                     },
                                     {
                                         url: 'https://www.jd.com',
-                                        image: 'https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/learn.png',
-                                        label: '分类一'
+                                        image: 'https://img12.360buyimg.com/mobilecms/s140x140_jfs/t1/99437/40/7898/196142/5e004f8eE5bf519a7/02a5aaecded15bae.jpg.webp',
+                                        label: '衣服'
                                     },
                                     {
                                         url: 'https://www.jd.com',
-                                        image: 'https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/learn.png',
-                                        label: '分类一'
+                                        image: 'https://img10.360buyimg.com/mobilecms/s140x140_jfs/t1/108314/37/2100/74059/5e0420e3Ed5c370fe/61da90e6a6d5c5c5.jpg.webp',
+                                        label: '耳机'
                                     },
                                     {
                                         url: 'https://www.jd.com',
-                                        image: 'https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/learn.png',
-                                        label: '分类一'
+                                        image: 'https://img12.360buyimg.com/mobilecms/s130x130_jfs/t1/53453/26/16515/295769/5dd74427Ec8752c28/415cf08bf0cd3bd1.jpg.webp',
+                                        label: '酒类'
                                     },
                                     {
                                         url: 'https://www.jd.com',
-                                        image: 'https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/learn.png',
-                                        label: '分类一'
+                                        image: 'https://img10.360buyimg.com/mobilecms/s130x130_jfs/t24529/101/1891623973/405929/c89e7ebf/5b6d5b65N76c88261.jpg.webp',
+                                        label: '手机'
                                     },
                                     {
                                         url: 'https://www.jd.com',
-                                        image: 'https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/learn.png',
-                                        label: '分类一'
+                                        image: 'https://img13.360buyimg.com/img/s150x150_jfs/t1/90996/8/8136/15323/5e019c53E4dd6f151/4dee02388357b41f.jpg!q70.jpg.webp',
+                                        label: '礼盒套'
                                     },
                                     {
                                         url: 'https://www.jd.com',
-                                        image: 'https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/learn.png',
-                                        label: '分类一'
+                                        image: 'https://img10.360buyimg.com/img/s170x170_jfs/t1/109156/9/2330/19099/5e05ce5cE1633ca57/e329ce3373943a28.jpg!q70.jpg.webp',
+                                        label: '毛衣'
                                     },
                                     {
                                         url: 'https://www.jd.com',
-                                        image: 'https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/learn.png',
-                                        label: '分类一'
+                                        image: 'https://img12.360buyimg.com/img/s150x150_jfs/t1/85810/30/8070/16096/5e01a374Ef104477d/247a72601cf95793.jpg!q70.jpg.webp',
+                                        label: '百雀羚'
                                     },
                                     {
                                         url: 'https://www.jd.com',
-                                        image: 'https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/learn.png',
-                                        label: '分类一'
+                                        image: 'https://img11.360buyimg.com/img/s170x170_jfs/t1/95537/9/7990/14653/5e009f8fE2cf95690/760fbb31c63bef5f.jpg!q70.jpg.webp',
+                                        label: '护肤品'
                                     },
                                     {
                                         url: 'https://www.jd.com',
-                                        image: 'https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/learn.png',
-                                        label: '分类一'
+                                        image: 'https://img30.360buyimg.com/img/s170x170_jfs/t1/104717/19/8396/15577/5e04aa3eE54b4be09/907762001af67f7f.jpg!q70.jpg.webp',
+                                        label: '补水用品'
                                     },
                                 ],
                                 [{
-                                        url: 'https://www.jd.com',
-                                        image: 'https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/bat.png',
-                                        label: '分类一'
-                                    },
-                                    {
-                                        url: 'https://www.jd.com',
-                                        image: 'https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/bat.png',
-                                        label: '分类一'
-                                    },
-                                    {
-                                        url: 'https://www.jd.com',
-                                        image: 'https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/bat.png',
-                                        label: '分类一'
-                                    },
-                                    {
-                                        url: 'https://www.jd.com',
-                                        image: 'https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/bat.png',
-                                        label: '分类一'
-                                    },
-                                    {
-                                        url: 'https://www.jd.com',
-                                        image: 'https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/bat.png',
-                                        label: '分类一'
-                                    },
-                                    {
-                                        url: 'https://www.jd.com',
-                                        image: 'https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/bat.png',
-                                        label: '分类一'
-                                    },
-                                    {
-                                        url: 'https://www.jd.com',
-                                        image: 'https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/bat.png',
-                                        label: '分类一'
-                                    },
-                                    {
-                                        url: 'https://www.jd.com',
-                                        image: 'https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/bat.png',
-                                        label: '分类一'
-                                    },
-                                    {
-                                        url: 'https://www.jd.com',
-                                        image: 'https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/bat.png',
-                                        label: '分类一'
-                                    },
-                                    {
-                                        url: 'https://www.jd.com',
-                                        image: 'https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/xdclass_pro/bannner/1901/bat.png',
-                                        label: '分类一'
-                                    },
+                                  url: 'https://www.jd.com',
+                                  image: 'https://img20.360buyimg.com/mobilecms/s140x140_jfs/t1/99530/9/8183/163118/5e02c867Ecc5ea797/85df20b9abb554bc.jpg.webp',
+                                  label: '鞋类'
+                              },
+                              {
+                                  url: 'https://www.jd.com',
+                                  image: 'https://img12.360buyimg.com/mobilecms/s140x140_jfs/t1/99437/40/7898/196142/5e004f8eE5bf519a7/02a5aaecded15bae.jpg.webp',
+                                  label: '衣服'
+                              },
+                              {
+                                  url: 'https://www.jd.com',
+                                  image: 'https://img10.360buyimg.com/mobilecms/s140x140_jfs/t1/108314/37/2100/74059/5e0420e3Ed5c370fe/61da90e6a6d5c5c5.jpg.webp',
+                                  label: '耳机'
+                              },
+                              {
+                                  url: 'https://www.jd.com',
+                                  image: 'https://img12.360buyimg.com/mobilecms/s130x130_jfs/t1/53453/26/16515/295769/5dd74427Ec8752c28/415cf08bf0cd3bd1.jpg.webp',
+                                  label: '酒类'
+                              },
+                              {
+                                  url: 'https://www.jd.com',
+                                  image: 'https://img10.360buyimg.com/mobilecms/s130x130_jfs/t24529/101/1891623973/405929/c89e7ebf/5b6d5b65N76c88261.jpg.webp',
+                                  label: '手机'
+                              },
+                              {
+                                  url: 'https://www.jd.com',
+                                  image: 'https://img13.360buyimg.com/img/s150x150_jfs/t1/90996/8/8136/15323/5e019c53E4dd6f151/4dee02388357b41f.jpg!q70.jpg.webp',
+                                  label: '礼盒套'
+                              },
+                              {
+                                  url: 'https://www.jd.com',
+                                  image: 'https://img10.360buyimg.com/img/s170x170_jfs/t1/109156/9/2330/19099/5e05ce5cE1633ca57/e329ce3373943a28.jpg!q70.jpg.webp',
+                                  label: '毛衣'
+                              },
+                              {
+                                  url: 'https://www.jd.com',
+                                  image: 'https://img12.360buyimg.com/img/s150x150_jfs/t1/85810/30/8070/16096/5e01a374Ef104477d/247a72601cf95793.jpg!q70.jpg.webp',
+                                  label: '百雀羚'
+                              },
+                              {
+                                  url: 'https://www.jd.com',
+                                  image: 'https://img11.360buyimg.com/img/s170x170_jfs/t1/95537/9/7990/14653/5e009f8fE2cf95690/760fbb31c63bef5f.jpg!q70.jpg.webp',
+                                  label: '护肤品'
+                              },
+                              {
+                                  url: 'https://www.jd.com',
+                                  image: 'https://img30.360buyimg.com/img/s170x170_jfs/t1/104717/19/8396/15577/5e04aa3eE54b4be09/907762001af67f7f.jpg!q70.jpg.webp',
+                                  label: '补水用品'
+                              },
                                 ],
                             ]
                         })
